@@ -65,36 +65,36 @@ return(
   {
     this.state.desktop ?(
       <div>
-  <div className="header-text">
-   <ul >
-     <li  className="header-li" onClick={() => {
-        document.getElementById('c').scrollIntoView();
-     }}>
-    Contact
-     </li >
-     <li   className="header-li"  onClick={() => {
-        document.getElementById('p').scrollIntoView();
-     }}>
-       Project
-     </li>
-     <li    className="header-li" onClick={() => {
-        document.getElementById('s').scrollIntoView();
-     }}>
-       Skills
-     </li>
-     <li    className="header-li" onClick={() => {
-        document.getElementById('a').scrollIntoView();
-     }}>
-       About
-     </li>
-     <li   className="header-li" onClick={() => {
-        document.getElementById('h').scrollIntoView();
-     }}>
-       Home
-     </li>
-   </ul>
-   </div> 
-   <div className="blank_white">  
+        <div className="header-text">
+          <ul>
+            <li className="header-li" onClick={() => {
+              document.getElementById('c').scrollIntoView();
+            }}>
+            Contact
+            </li>
+            <li className="header-li"  onClick={() => {
+                document.getElementById('p').scrollIntoView();
+            }}>
+            Project
+            </li>
+            <li className="header-li" onClick={() => {
+                document.getElementById('s').scrollIntoView();
+            }}>
+            Skills
+            </li>
+            <li className="header-li" onClick={() => {
+                document.getElementById('a').scrollIntoView();
+            }}>
+            About
+            </li>
+            <li className="header-li" onClick={() => {
+                document.getElementById('h').scrollIntoView();
+            }}>
+            Home
+            </li>
+            </ul>
+        </div> 
+      <div className="blank_white">  
     </div> 
     </div>) : 
     (
