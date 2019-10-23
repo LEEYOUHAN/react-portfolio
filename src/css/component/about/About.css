@@ -44,9 +44,10 @@
     margin-bottom: 4rem;
     margin-top: 4rem;
     box-sizing: border-box;
-padding: 1rem;
+    padding: 1rem;
     margin-right:8vw;
     width: 100%;
+    font-size: 1.5rem;
 }
 @media (max-width: 576px) { 
     .about_me{
