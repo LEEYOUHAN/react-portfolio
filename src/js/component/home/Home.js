@@ -15,7 +15,7 @@ class Home extends Component{
 
     const typing = setInterval(() =>{
       const typed = this.state.text;
-      const finalText= "This is YOUHAN LEE portfolio.";
+      const finalText= "This is portfolio from developer YOUHAN LEE.";
 
       if(i<finalText.length) { 
         this.setState ({
