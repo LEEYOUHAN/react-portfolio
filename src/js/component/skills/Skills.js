@@ -24,7 +24,7 @@ import Github from '../skills/logo/github.png';
 const Skills = () => (
 
   <div className="Skill" id="s">
-    <h1 className="Skill_Heeding"> Skils </h1>
+    <h1 className="Skill_Heeding"> Skills </h1>
     <div className="Skill_Content">
         <h2 className="Skill_Title"> Launage</h2>
         <span className="Skill_Content">
